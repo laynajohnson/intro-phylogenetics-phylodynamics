@@ -1,8 +1,15 @@
 bookdown::gitbook:
   css: style.css
+  includes:
+    in_header: header.html
   config:
     toc:
       before: |
         <li><a href="./">Phylogenetics and Phylodynamics</a></li>
       after: |
         <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+      sharing:
+      facebook: false
+      twitter: false
+      github: false
+      linkedin: true
